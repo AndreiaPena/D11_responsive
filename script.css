@@ -58,3 +58,42 @@ header {
     display: flex;
     flex-wrap: wrap;
 }
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    
+    
+    .f1 {
+        height: 30vh;
+        width: 50%;
+        order: 2;
+    }
+    .f2 {
+        height: 30vh;
+        width: 50%;
+        order: 3;
+    }
+    .f3 { 
+        height: 30vh;
+        width: 50%;
+        order: 2;
+    }
+    .sign {
+        height: 30vh;
+        width: 50%;
+    
+    }
+    .roll {
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }
+    .wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
