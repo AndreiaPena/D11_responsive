@@ -97,3 +97,32 @@ header {
     }
 
 }
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+
+    .f1 {
+        width: 100%;
+        order: 2;
+    }
+    .f2 {
+        width: 100%;
+        order: 3;
+    }
+    .f3 { 
+        width: 100%;
+        order: 2;
+    }
+    .sign {
+        width: 100%;
+    
+    }
+    .roll {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+}
